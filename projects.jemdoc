@@ -1,0 +1,58 @@
+# jemdoc: menu{MENU}{projects.html}
+= Projects
+
+== Sketch-based Image Retrieval (Ongoing)
+/*Collaborators: Shiva Krishna Reddy, Ashish Mishra ; Guide: Prof Anurag Mittal*/
+
+Sketch based image retrieval (SBIR), similar to image search, involves retrieval of all the relevant images in the database given a user hand drawn sketch as query. SBIR has potential applications in the fields of e-commerce and fashion industry. This work aims at improving the existing evaluation frameworks for SBIR and explore new models in these frameworks which beat the state-of-the-art. This is currently under review at ECCV 2018.
+
+== Categorization of Human Actions from Videos \[[./Report/cv_video_categorization.pdf Report]]
+/*Guide: Prof Sukhendu Das*/
+
+The aim of the project is to build a system that can
+categorize a large number of videos according to a set of complex human actions being performed. The challenges involved include large amounts of variation in videos of each action along with noise and jitter. Features were extracted from the videos using [https://arxiv.org/abs/1411.6660 multi-skip feature stacking]. These extracted features are then used for classification using models like SVM, Neural Networks, etc. Various dimensionality reduction techniques have also been tried out to improve the accuracy of the model.
+
+== Question-Answering system : Smarter than an Eighth grader? \[[./Report/nlp_final_project.pdf Report]]
+/*Collaborators: Abhishek Naik, Shiva Krishna Reddy, Mohan Bhambhani ; Guide: Prof Sutanu Chakraborty*/
+
+The goal of the project is to build a system that can answer questions from 8th-grade standardized science tests. The project improves upon the baselines of NLP and Information Retrieval in the multiple choice question answering task. It explores the influence of different knowledge sources on the question answering system. We formulate the retrieval query for the information retrieval system using query expansion. Different NLP concepts like n-grams, named entity similarities, etc were explored.
+
+== Contextual Spell Checker \[[https://bitbucket.org/sasikiran96/nlp_spellcheck Code]] \[[./Report/nlp_spellcheck.pdf Report]]
+/*Collaborators: Abhishek Naik, Shiva Krishna Reddy, Mohan Bhambhani ; Guide: Prof Sutanu Chakraborty*/
+
+In this project, we build a spell checker which suggests the possible correct words for the given typo in both the presence and absence of context. We model the word spell check in the absence of any context, as a noisy channel model. Using this formulation, we estimate the correct word given the typo by generating suitable candidates and ranking them based on the posterior of the correct word given the typo. For the phrase and sentence level spell check, we use an HMM of bi-grams where POS are the hidden variables and words are the observed variables, as well as web-scale N-grams model to estimate the correct word given the context.
+
+== Exploration of YOLO \[[./Report/yolo.pdf Presentation]] \[[./Report/yolo_project_report.pdf Report]]
+/*Collaborators: Shiva Krishna Reddy ; Guide: Prof Anurag Mittal*/
+
+In this work we experiment with [https://arxiv.org/abs/1612.08242 YOLO] and its variant and observe the influence of different design decisions in obtaining the final results. 
+
+== Light Field Photography \[[./Report/compPhoto_term.pdf Report]] \[[./GUI/truck_gui.html Demo]]
+/*Collaborators: Abhishek Naik, Shiva Krishna Reddy ; Guide: Prof Kaushik Mitra*/
+
+This project involves exploring the light field imaging and its numerous applications in computer vision. Raytracer software POV-RAY has been used to synthetically generate Light Field images. Several applications of the light field were explored such as digital refocusing using Fourier Slice Theorem, looking behind an occluded object, depth map estimation using a focal stack, etc. An interactive GUI has been developed to visualize light field imaging and its applications.
+
+== Source Code Authorship Attribution \[[./Report/prai_project_report.pdf Report]]
+/*Collaborators: Sai Srinivas ; Guide: Prof Balaram Ravindran*/
+
+The goal of the project is to automatically identify the author of a given source code. This was done by modeling the source code as a generative process using Latent Dirichlet Allocation(LDA). Sampling
+techniques like Gibbs sampling were used for estimation of model parameters. The project also explored the influence of punctuations in identifying the author of source code.
+
+== JOS Operating System \[[https://github.com/sasikiran1996/JOS-OS Code]]
+/*Collaborators: Shiva Krishna Reddy ; Guide: Prof Chester Rebeiro*/
+
+The aim of the project is to add features to MIT JOS operating system, given a bare-bones skeleton structure of the OS. Features like paging, interrupt and exception handling, inter-process communication, user environment were added to the functionality of the OS.
+
+== E-Book Reader \[[https://github.com/sasikiran1996/E-BookReader Code]]
+/*Collaborators: Shiva Krishna Reddy*/
+
+The objective of the project is to build a PDF Reader that supports searching for specific files and importing them to the reader. The auto-suggestion feature is also available in the search option. The PDF reader also supports searching for specific text in the pdf. Ternary Tree was used to store the names of all the files and BK-Tree was used for auto-complete suggestions. Jpedal library was used for the pdf reading part.
+
+== 4-bit Processor \[[https://github.com/sasikiran1996/IC535455 Code]] \[[./Report/IC535455.pdf Report]]
+/*Collaborators: Ujjawal Soni, Sowmith ; Guide: Prof Krishna Shivalingam*/
+
+The project aims at building a 4-bit processor in Verilog using only the basic gates. Modules for basic operations like addition using carry lookahead adder and multiplication using booth multiplier are implemented. Increment and Decrement operations along with bitwise left and right shift operations are also implemented. Additionally, flip-flops, multiplexers, registers are also implemented. A control unit is also present which generates the signals for the function of the processor. 
+
+== Copter Game \[[https://github.com/sasikiran1996/Copter/tree/master Code]]
+
+My first big project was to build a copter game. The game is based on the same mechanism as the popular game Flappy Bird. The SDL2.0 library was used for graphics. The collision mechanism is detected using a bounding box collision detection. High scores recording has also been incorporated. Play it for the crude fun!.

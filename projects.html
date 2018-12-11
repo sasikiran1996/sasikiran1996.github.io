@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<title>Projects</title>
+</head>
+<body>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+<div class="menu-category">Sasi Kiran</div>
+<div class="menu-item"><a href="index.html">Home</a></div>
+<div class="menu-item"><a href="projects.html" class="current">Projects</a></div>
+<div class="menu-item"><a href="work.html">Work&nbsp;Experience</a></div>
+<div class="menu-item"><a href="teach.html">Teaching&nbsp;Experience</a></div>
+<div class="menu-item"><a href="interests.html">Interests</a></div>
+<div class="menu-item"><a href="resume.html">Resume</a></div>
+<div class="menu-item"><a href="contact.html">Contact</a></div>
+</td>
+<td id="layout-content">
+<div id="toptitle">
+<h1>Projects</h1>
+</div>
+<h2>Sketch-based Image Retrieval (Ongoing)</h2>
+<p><i><b>Collaborators: Shiva Krishna Reddy, Ashish Mishra ; Guide: Prof Anurag Mittal</b></i></p>
+<p>Sketch based image retrieval (SBIR), similar to image search, involves retrieval of all the relevant images in the database given a user hand drawn sketch as query. SBIR has potential applications in the fields of e-commerce and fashion industry. This work aims at improving the existing evaluation frameworks for SBIR and explore new models in these frameworks which beat the state-of-the-art. This is currently under review at ECCV 2018.</p>
+<h2>Categorization of Human Actions from Videos [<a href="./Report/cv_video_categorization.pdf">Report</a>]</h2>
+<p><i><b>Guide: Prof Sukhendu Das</b></i></p>
+<p>The aim of the project is to build a system that can
+categorize a large number of videos according to a set of complex human actions being performed. The challenges involved include large amounts of variation in videos of each action along with noise and jitter. Features were extracted from the videos using <a href="https://arxiv.org/abs/1411.6660">multi-skip feature stacking</a>. These extracted features are then used for classification using models like SVM, Neural Networks, etc. Various dimensionality reduction techniques have also been tried out to improve the accuracy of the model.</p>
+<h2>Question-Answering system : Smarter than an Eighth grader? [<a href="./Report/nlp_final_project.pdf">Report</a>]</h2>
+<p><i><b>Collaborators: Abhishek Naik, Shiva Krishna Reddy, Mohan Bhambhani ; Guide: Prof Sutanu Chakraborty</b></i></p>
+<p>The goal of the project is to build a system that can answer questions from 8th-grade standardized science tests. The project improves upon the baselines of NLP and Information Retrieval in the multiple choice question answering task. It explores the influence of different knowledge sources on the question answering system. We formulate the retrieval query for the information retrieval system using query expansion. Different NLP concepts like n-grams, named entity similarities, etc were explored.</p>
+<h2>Contextual Spell Checker [<a href="https://bitbucket.org/sasikiran96/nlp_spellcheck">Code</a>] [<a href="./Report/nlp_spellcheck.pdf">Report</a>]</h2>
+<p><i><b>Collaborators: Abhishek Naik, Shiva Krishna Reddy, Mohan Bhambhani ; Guide: Prof Sutanu Chakraborty</b></i></p>
+<p>In this project, we build a spell checker which suggests the possible correct words for the given typo in both the presence and absence of context. We model the word spell check in the absence of any context, as a noisy channel model. Using this formulation, we estimate the correct word given the typo by generating suitable candidates and ranking them based on the posterior of the correct word given the typo. For the phrase and sentence level spell check, we use an HMM of bi-grams where POS are the hidden variables and words are the observed variables, as well as web-scale N-grams model to estimate the correct word given the context.</p>
+<h2>Exploration of YOLO [<a href="./Report/yolo.pdf">Presentation</a>] [<a href="./Report/yolo_project_report.pdf">Report</a>]</h2>
+<p><i><b>Collaborators: Shiva Krishna Reddy ; Guide: Prof Anurag Mittal</b></i></p>
+<p>In this work we experiment with <a href="https://arxiv.org/abs/1612.08242">YOLO</a> and its variant and observe the influence of different design decisions in obtaining the final results. </p>
+<h2>Light Field Photography [<a href="./Report/compPhoto_term.pdf">Report</a>] [<a href="./GUI/truck_gui.html">Demo</a>]</h2>
+<p><i><b>Collaborators: Abhishek Naik, Shiva Krishna Reddy ; Guide: Prof Kaushik Mitra</b></i></p>
+<p>This project involves exploring the light field imaging and its numerous applications in computer vision. Raytracer software POV-RAY has been used to synthetically generate Light Field images. Several applications of the light field were explored such as digital refocusing using Fourier Slice Theorem, looking behind an occluded object, depth map estimation using a focal stack, etc. An interactive GUI has been developed to visualize light field imaging and its applications.</p>
+<h2>Source Code Authorship Attribution [<a href="./Report/prai_project_report.pdf">Report</a>]</h2>
+<p><i><b>Collaborators: Sai Srinivas ; Guide: Prof Balaram Ravindran</b></i></p>
+<p>The goal of the project is to automatically identify the author of a given source code. This was done by modeling the source code as a generative process using Latent Dirichlet Allocation(LDA). Sampling
+techniques like Gibbs sampling were used for estimation of model parameters. The project also explored the influence of punctuations in identifying the author of source code.</p>
+<h2>JOS Operating System [<a href="https://github.com/sasikiran1996/JOS-OS">Code</a>]</h2>
+<p><i><b>Collaborators: Shiva Krishna Reddy ; Guide: Prof Chester Rebeiro</b></i></p>
+<p>The aim of the project is to add features to MIT JOS operating system, given a bare-bones skeleton structure of the OS. Features like paging, interrupt and exception handling, inter-process communication, user environment were added to the functionality of the OS.</p>
+<h2>E-Book Reader [<a href="https://github.com/sasikiran1996/E-BookReader">Code</a>]</h2>
+<p><i><b>Collaborators: Shiva Krishna Reddy</b></i></p>
+<p>The objective of the project is to build a PDF Reader that supports searching for specific files and importing them to the reader. The auto-suggestion feature is also available in the search option. The PDF reader also supports searching for specific text in the pdf. Ternary Tree was used to store the names of all the files and BK-Tree was used for auto-complete suggestions. Jpedal library was used for the pdf reading part.</p>
+<h2>4-bit Processor [<a href="https://github.com/sasikiran1996/IC535455">Code</a>] [<a href="./Report/IC535455.pdf">Report</a>]</h2>
+<p><i><b>Collaborators: Ujjawal Soni, Sowmith ; Guide: Prof Krishna Shivalingam</b></i></p>
+<p>The project aims at building a 4-bit processor in Verilog using only the basic gates. Modules for basic operations like addition using carry lookahead adder and multiplication using booth multiplier are implemented. Increment and Decrement operations along with bitwise left and right shift operations are also implemented. Additionally, flip-flops, multiplexers, registers are also implemented. A control unit is also present which generates the signals for the function of the processor. </p>
+<h2>Copter Game [<a href="https://github.com/sasikiran1996/Copter/tree/master">Code</a>]</h2>
+<p>My first big project was to build a copter game. The game is based on the same mechanism as the popular game Flappy Bird. The SDL2.0 library was used for graphics. The collision mechanism is detected using a bounding box collision detection. High scores recording has also been incorporated. Play it for the crude fun!.</p>
+<div id="footer">
+<div id="footer-text">
+Page generated 2018-06-18 16:16:36 IST, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+</div>
+</div>
+</td>
+</tr>
+</table>
+</body>
+</html>

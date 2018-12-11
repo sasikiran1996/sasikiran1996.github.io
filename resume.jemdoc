@@ -1,0 +1,4 @@
+# jemdoc: menu{MENU}{resume.html}
+= Resume
+
+[./resume.pdf Here] is my resume.
