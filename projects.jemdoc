@@ -1,10 +1,10 @@
 # jemdoc: menu{MENU}{projects.html}
 = Projects
 
-== Sketch-based Image Retrieval (Ongoing)
-/*Collaborators: Shiva Krishna Reddy, Ashish Mishra ; Guide: Prof Anurag Mittal*/
+== Bundle Adjustment in the Large \[[./Report/GPCV_Project_Report.pdf Report]]
+/*Guide: Prof Anurag Mittal*/
 
-Sketch based image retrieval (SBIR), similar to image search, involves retrieval of all the relevant images in the database given a user hand drawn sketch as query. SBIR has potential applications in the fields of e-commerce and fashion industry. This work aims at improving the existing evaluation frameworks for SBIR and explore new models in these frameworks which beat the state-of-the-art. This is currently under review at ECCV 2018.
+This project explored the inexact Newton type bundle adjustment algorithm proposed in the [https://homes.cs.washington.edu/~sagarwal/bal.pdf paper] of the same name. This inexact newton method along with methods that use Schur’s complement trick to solve bundle adjustment were experimented on a small, medium and large dataset and their performances were compared.
 
 == Categorization of Human Actions from Videos \[[./Report/cv_video_categorization.pdf Report]]
 /*Guide: Prof Sukhendu Das*/

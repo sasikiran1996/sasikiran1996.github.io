@@ -1,0 +1,8 @@
+# jemdoc: menu{MENU}{publications.html}
+= Projects
+
+== A Zero-Shot Framework for Sketch-based Image Retrieval \[[http://openaccess.thecvf.com/content_ECCV_2018/papers/Sasikiran_Yelamarthi_A_Zero-Shot_Framework_ECCV_2018_paper.pdf Paper]] \[[https://github.com/sasikiran1996/Zero-shot-SBIR Code]]   
+/*Collaborators: Shiva Krishna Reddy, Ashish Mishra ; Guide: Prof Anurag Mittal*/
+
+Sketch based image retrieval (SBIR), similar to image search, involves retrieval of all the relevant images in the database given a user hand drawn sketch as query. SBIR has potential applications in the fields of e-commerce and fashion industry. This work aims at improving the existing evaluation frameworks for SBIR and explore new models in these frameworks which beat the state-of-the-art. This has been accepted at ECCV 2018.
+
