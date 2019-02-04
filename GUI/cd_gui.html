@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Demo 8 - Image Slider with Thumbnail Preview</title>
+    <!-- <link href="themes/8/js-image-slider.css" rel="stylesheet" type="text/css" /> -->
+    <!-- <script src="themes/8/js-image-slider.js" type="text/javascript"></script>-->
+    <link href="cd_style.css" rel="stylesheet" type="text/css" />
+    <link href="generic.css" rel="stylesheet" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="cd_slider.js"></script>
+    <style>
+
+    </style>
+
+</head>
+<body bgcolor="#000000" onload="init()">
+    <div class="div1">
+        <h3><font face="Roboto", size=8, color="white">Light Field Imaging</font></h3> 
+        <!-- <p>
+            Demos: <a href="demo1.html">1</a><a href="demo2.html">2</a><a href="demo3.html">3</a><a href="demo4.html">4</a>
+            <a href="demo5.html">5</a><a href="demo6.html">6</a><a href="demo7.html">7</a><a href="demo8.html" class="current">8</a>
+        </p> -->
+    </div>
+        <div id="mainDiv">
+        <div id="buttonDiv">
+            <button id="bt1" onclick="changeFramePinHole()">Pin-hole Aperture</button>
+            <button id="bt2" onclick="changeFrameFullAperture()">Full Aperture</button>
+        </div>
+        <div id="frame-slider">
+            <div id="slider">
+                <div id="dispLayer" class="bgLayer" style="background: url(&quot;../CD_LF/lf_F_2_10.png&quot;) no-repeat; border-radius: 0px; background-size: cover;"></div>
+                <!-- <div class="sliderInner"></div> -->
+            </div>    
+        </div>
+
+        
+        <div id="slider-vertical"></div>
+        
+        <div id="img-selector">
+            <div id="inner-circle"></div>
+        </div>
+        
+        <!-- hidden divs to store state information -->
+        <div id="frame-slider-PinHole" style="display: none;">
+        </div>
+
+        <div id="img-selector-PinHole" style="display: none;">
+        </div>        
+        
+        <div id="frame-slider-FullAperture" style="display: none">
+            <div id="sliderFA">
+                <div id="dispLayerFA" class="bgLayer" style="background: url(&quot;../CD_ans/shiftAdd_9.png&quot;) no-repeat; border-radius: 0px; background-size: cover;"></div>
+                <!-- <div class="sliderInner"></div> -->
+            </div>
+        </div>
+
+    </div>
+
+    <div id="depthMap" style="display:none">
+        <div id="depthLayer" class="bgLayer" style="background: url(&quot;depth_map/effDepthMap.png&quot;) no-repeat; border-radius: 0px; background-size: cover;"></div>
+        <!-- <img id="depth-map-img" src="depth_map/effDepthMap.png"></img> -->
+    </div>
+    <!-- <div class="div2">
+        <p>You'll see thumbnail previews when hovering on pagination bullets in the demo. The thumbnail previews are created by the
+        slider's built-in function, <span class="cn">thumbnailPreview</span>, with the assistance of the
+        <a href="http://www.menucool.com/tooltip/javascript-tooltip" target="_blank">Menucool Tooltip</a> widget.</p>
+        <p>Please visit <a href="http://www.menucool.com/slider/thumbnail-preview">http://www.menucool.com/slider/thumbnail-preview</a> for detailed instructions.</p>
+        <p>This demo has not used the slider's advanced features, hence it does not require slider license. However, a Tooltip license ($20) is required for using the tooltip widget to preview thumbnails.
+        <br /><em>If you have also included slider's advanced features, slider license is also required.</em></p>
+    </div> -->
+</body>
+</html>

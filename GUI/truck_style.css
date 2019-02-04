@@ -1,0 +1,96 @@
+/*css for vertical slider for depth estimation*/
+#slider-vertical {
+    position:absolute;
+    margin:auto;
+    top:200px;left:1300px;
+    height:400px;
+
+}
+
+#slider-hz {
+    position:absolute;
+    margin:auto;
+    top:250px;left:170px;
+    width:50px;
+
+}
+
+
+/*css for main frame*/
+#mainDiv {
+    margin: auto;
+    background-color: rgb(0,0,0);
+    height: 625px;
+    width: 1000px;
+}
+
+
+#bt1{
+    height: 25px;
+}
+
+#bt2{
+    height: 25px;
+}
+
+#buttonDiv{
+    text-align: center;
+}
+
+#slider, #sliderFA, #sliderPA, #depthMap {
+    /*changed to bring slider down for all images*/
+    /*width:960px;height:400px; Must be the same size as the slider images */
+    width:800px;height:600px; /*put the width and height of image*/
+    margin: 0 auto; /*center-aligned*/
+    border-radius: 0px;
+}
+
+#slider, #sliderFA, #sliderPA, #depthMap {
+    background-color:white;
+    position:relative;
+    transform: translate3d(0,0,0);
+    /*box-shadow: 0px 1px 5px #999999;*/
+}
+
+#slider .bgLayer, #sliderFA .bgLayer, #sliderPA .bgLayer, #depthMap .bgLayer{
+
+	width:800px;height:600px;
+}
+
+/*#slider .sliderInner {
+    overflow:hidden; 
+    position:absolute; top:0; left:0;
+}
+*/
+#img-selector {
+	position:absolute;
+	margin: auto;
+	top:300px;left:80px;
+    /* 15*16 */
+	width:240px;height: 240px;
+	background-color: rgb(192,192,192);
+}
+
+#inner-circle {
+
+    position: relative;
+    background: black;
+    border-radius: 50%;
+    height: 16px;
+    width: 16px;
+    top: 50%;
+    left: 50%;
+    margin: -8px 0px 0px -8px;
+}
+/*
+#full-inner-circle {
+
+    position: relative;
+    background: black;
+    border-radius: 50%;
+    height: 240px;
+    width: 240px;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+}*/
