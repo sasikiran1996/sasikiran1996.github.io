@@ -1,12 +1,18 @@
 # jemdoc: menu{MENU}{work.html}
 = Work Experience
 
-== Internship at Microsoft
-/*Software Engineer Intern*/
+== Software Engineer Intern (Research & Development), PlusAI
+/*Cupertino, CA \n May - August 2019 */
+
+[https://plus.ai/ PlusAI] is a startup that works on self-driving trucks. Worked closely with the perception team in developing point cloud processing models. Developed deep learning models for semantic segmentation of ground, lane-mark and moving objects on data from California roads. Also worked on developing a minimal simulator for generating and augmenting LIDAR data.
+
+
+== Software Engineer Intern, Microsoft
+/*Hyderabad, India \n June - August 2016 */
 
 I worked for Financial Intelligence and Professional Services team in Microsoft. I was a part of the development team and worked on their ongoing projects. I broadly worked in the fields of Business Intelligence and database management. As a part of the internship,  I also completed the Microsoft certification exam on SQL Server. I also developed a tool for handling security aspects of the code bases for the internal hackathon.
 
-== Internship at My Ally
-/*Software Engineer Intern*/
+== Software Engineer Intern, My Ally
+/*Remote \n March - July 2015*/
 
-[https://www.myally.ai/ My Ally] (formally Skedool.it) is a US-based startup that focuses on smart scheduling using Artificial Intelligence and NLP. As a part of my internship,  I developed modules for integration of their personal assistant with Microsoft Outlook and Salesforce.  
+[https://www.myally.ai/ My Ally] (formally Skedool.it) is a startup that focuses on smart scheduling using Artificial Intelligence and NLP. As a part of my internship,  I developed modules for integration of their personal assistant with Microsoft Outlook and Salesforce.  

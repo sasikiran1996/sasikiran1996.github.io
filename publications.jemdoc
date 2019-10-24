@@ -1,8 +1,20 @@
 # jemdoc: menu{MENU}{publications.html}
-= Projects
+= Publications
 
-== A Zero-Shot Framework for Sketch-based Image Retrieval \[[http://openaccess.thecvf.com/content_ECCV_2018/papers/Sasikiran_Yelamarthi_A_Zero-Shot_Framework_ECCV_2018_paper.pdf Paper]] \[[https://github.com/sasikiran1996/Zero-shot-SBIR Code]]   
-/*Collaborators: Shiva Krishna Reddy, Ashish Mishra ; Guide: Prof Anurag Mittal*/
+== (NeurIPS workshop 2019) Reinforcement learning with a network of spiking agents \[[https://openreview.net/pdf?id=B1eU47t8Ir Paper]]   
+Sneha Aenugu, Abhishek Sharma, /*Sasi Kiran Yelamarthi*/, Hananel Hazan, Philip.S.Thomas, Robert Kozma
 
-Sketch based image retrieval (SBIR), similar to image search, involves retrieval of all the relevant images in the database given a user hand drawn sketch as query. SBIR has potential applications in the fields of e-commerce and fashion industry. This work aims at improving the existing evaluation frameworks for SBIR and explore new models in these frameworks which beat the state-of-the-art. This has been accepted at ECCV 2018.
+~~~
+{}{img_left}{images/spiking/model.png}{Spiking_neural_arch}{250px}{155px}{./images/spiking/model.png}
 
+Neuroscientific theory suggests that dopaminergic neurons broadcast global reward prediction errors to large areas of the brain influencing the synaptic plasticity of the neurons in those regions. We build on this theory to propose a multi-agent learning framework with spiking neurons in the generalized linear model (GLM) formulation as agents, to solve reinforcement learning (RL) tasks. We show that a network of GLM spiking agents connected in a hierarchical fashion, where each spiking agent modulates its firing policy based on local information and a global prediction error, can learn complex action representations to solve RL tasks. We further show how leveraging principles of modularity and population coding inspired from the brain can help reduce variance in the learning updates making it a viable optimization technique.
+~~~
+
+== (ECCV 2018) A Zero-Shot Framework for Sketch-based Image Retrieval \[[http://openaccess.thecvf.com/content_ECCV_2018/papers/Sasikiran_Yelamarthi_A_Zero-Shot_Framework_ECCV_2018_paper.pdf Paper]] \[[https://github.com/sasikiran1996/Zero-shot-SBIR Code]]   
+/*Sasi Kiran Yelamarthi*/, Shiva Krishna Reddy, Ashish Mishra, Anurag Mittal
+
+~~~
+{}{img_left}{images/sbir/illustration.png}{SBIR_illustration}{267px}{164px}{./images/sbir/illustration.png}
+
+Sketch-based image retrieval (SBIR), similar to image search, involves retrieval of all the relevant images in the database given a user hand-drawn sketch as a query. Existing methods in SBIR fail to generalize to unseen classes of sketches. In this work, we propose a new benchmark for the zero-shot setting of SBIR and show that the existing methods, which are trained in a discriminative setting learn only class specific mappings and fail to generalize to the proposed zero-shot setting. To circumvent this, we propose a generative approach for the SBIR task by proposing deep conditional generative models which take the sketch as an input and fill the missing information stochastically.
+~~~

@@ -2,11 +2,12 @@
 = Sasi Kiran Y S S V
 
 ~~~
-{}{img_left}{sasi_new2.jpg}{image of me}{346px}{448px}{}
-Hey there. I am a first year student at [https://www.cics.umass.edu/ University of Massachusetts Amherst] pursuing a Masters degree in Computer Science and Engineering. My interests are in Deep Learning and its application in solving Computer Vision problems and Reinforcement Learning. I am very excited about the new upcoming developments in vision like self-driving cars, Augmented Reality and application of Reinforcement Learning to solve multiplayer games.
+{}{img_left}{./images/dp/sasi_dp.jpeg}{image of me}{217px}{293px}{}
+Hey there. I am a second year student at [https://www.cics.umass.edu/ University of Massachusetts Amherst] pursuing a Masters degree in Computer Science and Engineering. My interests are in Deep Learning and its application in solving Computer Vision problems and Reinforcement Learning. I am very excited about the new upcoming developments in vision like self-driving cars, Augmented Reality and application of Reinforcement Learning to solve multiplayer games.
 ~~~
 
 == Updates:
 
-I'm spending my summer 2019 at [https://plus.ai/ PlusAI], a self-driving truck startup. A great opportunity for me to know more about the industry of self-driving.
+- Our [https://openreview.net/forum?id=B1eU47t8Ir paper] on Spiking Neural Networks got accepted at Neuro AI workshop, NeurIPS 2019.
+- I'm spending my summer 2019 at [https://plus.ai/ PlusAI], a self-driving truck startup. A great opportunity for me to know more about the industry of self-driving.
 

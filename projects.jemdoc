@@ -1,6 +1,11 @@
 # jemdoc: menu{MENU}{projects.html}
 = Projects
 
+== Building a Reinforcement Learning agent for text-based games \[[./Report/MSR_TextWorld.pdf Report]]
+/*Collaborators: Bryon Kucharski, Rakesh R Menon, Clayton Thorrez ; Guide: Yash Chandak (UMass), Marc-Alexandre Cote & Adam Trischler (MSR Montreal)*/
+
+The project aims at building a reinforcement learning (RL) agent for solving text-based games generated from textWorld, which is a framework for generating text-based games. We explored several methods to reduce the action space for these text-based games. We additionally used A2C and DRRN approaches for learning control policy for selecting actions at a given state. We placed 8th using these approaches in the competition conducted by Microsoft Research Montreal.
+
 == Bundle Adjustment in the Large \[[./Report/GPCV_Project_Report.pdf Report]]
 /*Guide: Prof Anurag Mittal*/
 
